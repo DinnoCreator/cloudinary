@@ -33,7 +33,6 @@ module.exports = cloudinary;
 <h4>Step 5: Then in that same route you create an api for image or video upload</h4>
  
 {<br>
-<div style="background-color: black; color: white;">
  router.post("/imageupload", authenticateToken, async (req, res) => {
     const {image, name} = req.body;
  
@@ -55,6 +54,5 @@ module.exports = cloudinary;
     return res.status(401).json({ error: error.message });
   }
 });
-</div>
   <br>
 }
