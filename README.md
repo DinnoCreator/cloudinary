@@ -14,10 +14,10 @@ Then in your cloudinary.js file type in this config. Your API key and secret wou
 {
   const cloudinary = require("cloudinary").v2;
  
-cloudinary.config({
-    cloud_name: process.env.CLOUDNAME,
-    api_key: process.env.API_KEY,
-    api_secret: process.env.API_SECRET
+cloudinary.config({<br>
+    cloud_name: process.env.CLOUDNAME,<br>
+    api_key: process.env.API_KEY,<br>
+    api_secret: process.env.API_SECRET<br>
 });
  
 module.exports = cloudinary;
